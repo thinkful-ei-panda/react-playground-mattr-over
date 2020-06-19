@@ -16,7 +16,7 @@ class TheDate extends React.Component {
   componentDidMount() {
     // console.log('componentDidMount')
     this.interval = setInterval(() => {
-      console.log('setInterval')
+      // console.log('setInterval')
       this.setState({
         datetime: new Date()
       })
