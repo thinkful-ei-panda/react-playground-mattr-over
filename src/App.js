@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>My Poll Data</h1>
+        <h1>My React Playground</h1>
         <TheDate />
         <Counter count={123} />
         <HelloWorld />

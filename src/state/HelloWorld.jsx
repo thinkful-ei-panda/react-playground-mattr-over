@@ -37,7 +37,7 @@ class HelloWorld extends React.Component {
 
     render() {
         return (
-                <div>
+                <div className='hello-div'>
                 <p>Hello {this.state.who}</p>
                 <button onClick={this.handleWorldButtonClick}>
                     World

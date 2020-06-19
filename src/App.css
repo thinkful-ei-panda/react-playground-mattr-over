@@ -4,12 +4,27 @@
     min-height: calc(100vh - 80px);
   }
   
-  .left {
-    background-color: darkslategray;
+  div {
+    background-color: #2f4f4f;
     color: azure;
   }
   
-  .right {
+  div.RouletteGun, p, .hello-div {
+    display: block;
     background-color: wheat;
     color: firebrick;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    flex: 1;
+  }
+
+  div.CountdownBomb {
+    display: block;
+    background-color: #2f4f4f;
+    color: #wheat;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    flex: 1;
   }
