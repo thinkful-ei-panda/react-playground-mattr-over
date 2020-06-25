@@ -7,6 +7,7 @@ import HelloWorld from './state/HelloWorld';
 import Bomb from './state/Bomb';
 import RouletteGun from './state/RouletteGun';
 import Tabs from './state/Tabs';
+import DemonymApp from './Demonymapp/DemonymApp';
 
 const tabsProp = [
   { name: 'First tab',
@@ -22,12 +23,14 @@ class App extends Component {
     return (
       <div className="App">
         <h1>My React Playground</h1>
+        <DemonymApp />
         <Tabs tabs={tabsProp} />
         <RouletteGun />
         <TheDate />
         <Counter count={123} />
         <HelloWorld />
         <Bomb />
+        
         
         <Messages name="Messages" unread={0}/>
         <Messages name="Notifications" unread={10}/>
@@ -37,3 +40,21 @@ class App extends Component {
 }
 
 export default App;
+
+
+// import React, { Component } from 'react';
+// import './App.css';
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <h1>YOUR APPLICATION NAME!</h1>
+//         <div>Hello!</div>
+//       </div>
+//       <div>This does not belong here</div>
+//     );
+//   }
+// }
+
+// export default App;
